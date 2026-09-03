@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>作品集</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">◆</span>
+        <span id="brand-name">作品集</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">关于</a>
+        <a href="#works">作品</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="about">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+    </div>
+    <div class="container">
+      <p class="hero-kicker">MY PORTFOLIO · 2026</p>
+      <h1 id="hero-title">作品集</h1>
+      <p id="hero-subtitle" class="hero-subtitle"></p>
+      <p id="hero-intro" class="hero-intro"></p>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong id="stat-works">0</strong>
+          <span>件作品</span>
+        </div>
+        <div class="stat">
+          <strong id="stat-tags">0</strong>
+          <span>个标签</span>
+        </div>
+        <div class="stat">
+          <strong id="stat-size">0</strong>
+          <span>MB 文件</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="works-section" id="works">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">SELECTED WORKS</p>
+        <h2>我的作品</h2>
+        <p>点击卡片上的按钮即可下载压缩包</p>
+      </div>
+      <div class="toolbar">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="21" y1="21" x2="16.5" y2="16.5"></line>
+          </svg>
+          <input type="search" id="search-input" placeholder="搜索作品名称、简介或标签…" aria-label="搜索作品" />
+        </div>
+        <div class="tag-filters" id="tag-filters" role="group" aria-label="按标签筛选"></div>
+      </div>
+      <div class="works-grid" id="works-grid"></div>
+      <p class="empty-state" id="empty-state" hidden>没有找到匹配的作品，换个关键词试试～</p>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <p id="footer-contact"></p>
+      <p class="footer-note">作品仅供学习交流使用，未经许可请勿商用。</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

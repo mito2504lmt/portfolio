@@ -67,9 +67,9 @@
         ? `<a class="btn" href="${esc(link)}" target="_blank" rel="noopener">下载压缩包</a>`
         : `<a class="btn" href="${esc(link)}" download>下载压缩包</a>`
       : "";
-    const fileName = decodeURIComponent(
-      (w.fileUrl || w.file || "").split("/").pop() || ""
-    );
+    const fileName =
+      w.fileLabel ||
+      decodeURIComponent((w.fileUrl || w.file || "").split("/").pop() || "");
     return `
       <article class="work-card reveal" style="--d:${Math.min(idx * 80, 480)}ms">
         <div class="work-cover">

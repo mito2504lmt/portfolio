@@ -20,7 +20,8 @@ const WORKS = [
     tags: ["机器人", "第三代", "结构设计"],
     description: "机器人第三代项目文件包（M9 迭代版），含整机结构、装配体及配套文件。",
     file: "works/机器人3代 -m9.zip",
-    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/%E6%9C%BA%E5%99%A8%E4%BA%BA3%E4%BB%A3%20-m9.zip",
+    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/robot-gen3-m9.zip",
+    fileLabel: "机器人3代 -m9.zip",
     sizeMB: 187.8,
     thumb: ""
   },
@@ -30,7 +31,8 @@ const WORKS = [
     tags: ["外骨骼", "机器人", "结构设计"],
     description: "第三代外骨骼机器人交接版本项目文件，含关节结构件、电机、驱动板及配套模型。",
     file: "works/第三代外骨骼交接版本.zip",
-    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/%E7%AC%AC%E4%B8%89%E4%BB%A3%E5%A4%96%E9%AA%A8%E9%AA%BC%E4%BA%A4%E6%8E%A5%E7%89%88%E6%9C%AC.zip",
+    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/exoskeleton-gen3.zip",
+    fileLabel: "第三代外骨骼交接版本.zip",
     sizeMB: 76.4,
     thumb: ""
   },
@@ -41,6 +43,7 @@ const WORKS = [
     description: "手持测绘设备结构模块项目文件，含外壳与支架三维模型、需求书、设计变更文档及 BOM 目录。",
     file: "works/Mechanical.zip",
     fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/Mechanical.zip",
+    fileLabel: "Mechanical.zip",
     sizeMB: 149.0,
     thumb: ""
   },
@@ -50,7 +53,8 @@ const WORKS = [
     tags: ["摆线减速器", "3D打印", "结构设计"],
     description: "摆线减速器 3D 打印源文件包，含外壳套件、中心轴、轴承及装配体模型。",
     file: "works/摆线减速器3D打印源文件.zip",
-    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/%E6%91%86%E7%BA%BF%E5%87%8F%E9%80%9F%E5%99%A83D%E6%89%93%E5%8D%B0%E6%BA%90%E6%96%87%E4%BB%B6.zip",
+    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/cycloid-reducer-3dprint.zip",
+    fileLabel: "摆线减速器3D打印源文件.zip",
     sizeMB: 8.0,
     thumb: ""
   },
@@ -60,7 +64,8 @@ const WORKS = [
     tags: ["机械创新设计大赛", "机械结构", "装配体"],
     description: "2026 年机械装配体项目文件包，含装配体及配套文件。",
     file: "works/2026机械装配体.zip",
-    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/2026%E6%9C%BA%E6%A2%B0%E8%A3%85%E9%85%8D%E4%BD%93.zip",
+    fileUrl: "https://github.com/mito2504lmt/portfolio/releases/download/works-v1/2026-mechanical-assembly.zip",
+    fileLabel: "2026机械装配体.zip",
     sizeMB: 17.4,
     thumb: ""
   }
